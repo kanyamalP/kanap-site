@@ -4,25 +4,22 @@
         <title>kanap-site</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
 
         <!-- Header -->
         <header id="header">
-            <div class="header-list">
-                <a href="index.html" class="logo">introspect</a>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="generic.html">Generic</a></li>
-                </ul>
-            </div>
+            <ul　id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="generic.html">Generic</a></li>
+            </ul>
         </header>
 
         <!-- Banner -->
         <div id="banner">
             <div class="frame">
-                <h1>INTROSPECT: A FREE + FULLY<br>SITE TEMPLATE BY<br>TEMPLATED</h1>
+                <h1>INTROSPECT: A FREE + FULLY RESPONSIVE<br>SITE TEMPLATE BY TEMPLATED</h1>
                 <ul class="actions">
                     <li><a href="#" class="button alt">Get Started</a></li>
                 </ul>
@@ -32,11 +29,9 @@
         <!-- One -->
 		<div id="one">
             <div class="frame">
-                <header>
-                    <h2>kanapkanap</h2>
-                </header>
+                <h2>kanap　kanap</h2>
                 <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                <ul class="actions">
+                <ul class="actions button-red">
                     <li><a href="#" class="button alt">Learn More</a></li>
                 </ul>
             </div>
@@ -76,7 +71,7 @@
                         <h3>Tempus Feugiat</h3>
                     </header>
                     <p>ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd</p>					
-                    <ul class="actions">
+                    <ul class="actions button-red">
                         <li><a href="#" class="button alt">Learn More</a></li>
                     </ul>
                 </div>
@@ -86,7 +81,7 @@
                         <h3>Aliquam Nulla</h3>
                 </header>
                 <p>eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
-                <ul class="actions">
+                <ul class="actions button-red">
                         <li><a href="#" class="button alt">Learn More</a></li>
                     </ul>
                 </div>
@@ -96,7 +91,7 @@
                         <h3>Sed Magna</h3>
                     </header>
                         <p>fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff</p>
-                        <ul class="actions">
+                        <ul class="actions button-red">
                             <li><a href="#" class="button alt">Learn More</a></li>
                         </ul>
                 </div>
@@ -106,25 +101,28 @@
 
         <!-- Footer -->
 		<div id="footer">
-		    <div class="frame">
+		    <div class="frame frame-form">
                 <header>
-                    <h2>Get in Touch</h2>
+                    <h2>GET IN TOUCH</h2>
                 </header>
                 <form method="post" action="#">
-                    <div class="name-form">
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" />
-                    </div>
-                    <div class="email-form">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" />
+                    <div class="form-data">
+                        <div class="form-content">
+                            <div class="form-text">NAME</div>
+                            <input type="text" name="name" id="name" />
+                        </div>
+                        <div class="form-content">
+                            <div class="form-text">E-MAIL</div>
+                            <input type="email" name="email" id="email" />
+                        </div>                
                     </div>
                     <div class="message-form">
-                        <label for="message">Message</label>
+                        <div class="form-text">MESSAGE</div>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
-                    <ul class="actions">
-                        <li><input type="submit" value="Send Message" class="alt" /></li>
+
+                    <ul class="actions bg-white">
+                        <li><input type="submit" value="Send Message" class="alt button form-submit bg-white" /></li>
                     </ul>
                 </form>
                 <p class="copyright">

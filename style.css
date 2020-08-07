@@ -1,0 +1,186 @@
+/* -------header--------------------- */
+body {
+    margin: 0;
+}
+p {
+    word-wrap: break-word;
+}
+
+.actions, .actions input {
+    list-style: none;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #fff;
+    display: inline-block;
+    padding: 1em;
+    vertical-align: middle;
+}
+.actions li a {
+    text-decoration: none;
+}
+.button-red {
+    box-shadow: inset 0 0 0 2px red;
+}
+.button-red li a, .button-red li input {
+    color: red;
+}
+ul.actions {
+    cursor: default;
+    list-style: none;
+}
+
+.actions:hover {
+    background: #ffffff57;
+    opacity: 0.7;
+}
+.button-red:hover {
+    background: #ff000073;
+}
+/* -------header--------------------- */
+
+#header {
+    list-style: none;
+    overflow: hidden;
+    background: #1c1c1c;
+    color: #d5d5d5;
+    cursor: default;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+    display: block;
+  }
+#header li {
+    float: right;
+    padding: 0 2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85em;
+}
+#header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+/* -------banner--------------------- */
+
+
+.frame {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+    z-index: 10000;
+    line-height: 1.5;
+}
+#banner {
+    background-image: url(yuuhi.jpg);
+    background-size: cover;
+    padding-top: 250px;
+    width: 100%;
+    height: 500px;
+    background-position: center bottom;
+    color: white;
+    text-align: left;
+}
+#banner h1 {
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    padding: 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+#banner a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* -------one--------------------- */
+
+#one { 
+    max-width: 65em;
+    margin: 0 auto;
+    padding: 4em 0 2em 0;
+}
+
+#one h2 {
+    color: #e5474b;
+    font-size: 1.75em;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+/* -------two--------------------- */
+
+#two img {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100%;
+}
+h3 {
+    color: #e5474b;
+    font-size: 1.35em;
+}
+
+/* -------footer--------------------- */
+
+#footer {
+    background-color: #e5474b;
+    color: #f2a3a5;
+    background: #e5474b;
+}
+
+#footer h2 {
+    font-size: 25px;
+}
+#footer h2 , #footer label {
+    color: #fff;
+}
+
+.frame-form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.form-data {
+    display: flex;
+}
+
+.form-content {
+    width: 48%;
+    padding-right: 2%;
+    margin-bottom: 20px;
+}
+
+.form-text {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.form-content #email,.form-content #name {
+    width: 100%;
+    height: 24px;
+    padding: 0;
+}
+
+#message {
+    width: 100%;
+}
+
+input[type="submit"] {
+    box-shadow: none;
+    padding: 0;
+    border: none;
+    color: white;
+}
+input[type="submit"]:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    color: white;
+}
