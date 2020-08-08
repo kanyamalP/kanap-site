@@ -5,7 +5,10 @@ body {
 p {
     word-wrap: break-word;
 }
-
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .actions, .actions input {
     list-style: none;
     background-color: transparent;
@@ -37,7 +40,7 @@ ul.actions {
 }
 /* -------header--------------------- */
 
-#header {
+.header {
     list-style: none;
     overflow: hidden;
     background: #1c1c1c;
@@ -52,18 +55,38 @@ ul.actions {
     width: 100%;
     z-index: 10001;
     display: block;
+    text-align: left;
   }
-#header li {
-    float: right;
+.header .logo {
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 5%;
+}
+.header .logo a {
+    color: #e5474b;
+    font-weight: bold;
+    font-size: 2em;
+}
+.header .nav {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header li {
+    /* float: left; */
+    display: inline;
     padding: 0 2em;
     text-transform: uppercase;
     font-weight: 700;
     font-size: .85em;
     white-space: nowrap;
-}
-#header a {
-    color: #ffffff;
-    text-decoration: none;
 }
   
 /* -------banner--------------------- */
