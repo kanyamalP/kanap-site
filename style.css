@@ -38,6 +38,13 @@ ul.actions {
 .button-red:hover {
     background: #ff000073;
 }
+.send-mail {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 130px;
+}
 /* -------header--------------------- */
 
 .header {
